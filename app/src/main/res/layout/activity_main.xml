@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@mipmap/main_screen"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus.the_flying_fish.MainActivity">
+
+   <ImageButton
+       android:id="@+id/ply"
+       android:layout_width="80dp"
+       android:padding="100dp"
+       android:background="@mipmap/play"
+       android:layout_height="30dp" />
+    <ImageButton
+        android:id="@+id/score"
+        android:layout_width="150dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:background="@mipmap/high_score"
+        android:layout_height="40dp" />
+    <ImageButton
+        android:id="@+id/exit"
+        android:layout_width="60dp"
+        android:padding="100dp"
+        android:backgroundTintMode="src_atop"
+        android:layout_marginTop="10dp"
+        android:background="@mipmap/exit"
+        android:layout_height="30dp" />
+
+
+</LinearLayout>

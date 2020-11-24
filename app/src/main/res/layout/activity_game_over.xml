@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.example.asus.the_flying_fish.GameOverActivity">
+
+
+    <ImageButton
+        android:id="@+id/home"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:adjustViewBounds="false"
+
+        android:background="@mipmap/home"
+        android:textAlignment="center"
+        android:visibility="visible" />
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#e60000"
+        android:paddingTop="130dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="Game Over"
+        android:textSize="50dp"/>
+    <TextView
+    android:id="@+id/text2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:paddingTop="220dp"
+    android:textColor="#ffffff"
+    android:gravity="center"
+    android:layout_centerHorizontal="true"
+    android:text=""
+    android:textSize="25dp"/>
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="260dp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textSize="20dp"/>
+
+    <ImageButton
+        android:id="@+id/button"
+        android:layout_width="150dp"
+       android:paddingTop="0dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/text3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:background="@mipmap/play"
+        android:foregroundGravity="center_horizontal" />
+
+</RelativeLayout>
